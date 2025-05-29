@@ -1,0 +1,23 @@
+.touritem{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+/* .touritem-button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+} */
+.touritem-title{
+    color: black;
+    padding: 5px;
+    border: none;
+}

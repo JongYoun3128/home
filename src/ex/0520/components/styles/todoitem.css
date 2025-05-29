@@ -1,0 +1,24 @@
+.todoitem-wrapper{
+    border: 1px solid #000;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.todoitem-title{
+    color: hsl(0, 0%, 0%);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.todoitem-title button{
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+}

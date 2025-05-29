@@ -1,0 +1,47 @@
+.tourinput-title{
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.tourinput-title-input{
+    border-radius: 5px;
+    width: 98%;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.tourinput-title-input:focus{
+    border-color: dodgerblue;
+    border-width: 1px;
+}
+
+.touritem-text{
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.touritem-text-textarea{
+    border-radius: 5px;
+    width: 98%;
+    height: 100px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.touritem-text-textarea:focus{
+   border-color: dodgerblue;
+    border-width: 1px;
+}
+.tourinput-label{
+    font-size: 20px;
+    color: dodgerblue;
+}

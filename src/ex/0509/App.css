@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  vertical-align: top;
+}
+body{
+  color: #282828;
+  background-color: #daecfd;
+}
+main{
+  height: 100%;
+  background-color: #daecfd;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* card */
+
+.card{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.166) 0px 1px 4px;
+  width: 500px;
+  margin: 0 20px;
+}
+.card_header{
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 460px;
+}
+.card_body{
+  padding-top: 1.5rem;
+}
+
+/* book */
+
+.books{
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.book{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.book_img{
+  border-radius: 6px;
+  width: 120px;
+}
+
+.book_title{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.book_description{
+  color: #777;
+  font-weight: 300;
+  margin-top: 0.4rem;
+}
+.book_price .discount{
+  color: yellowgreen;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+hr{
+  border: 0.5px dashed #dbdbdb;
+}
+
+.divider{
+  border: none;
+  height: 1px;
+  background-color: #e2e2e2;
+}
+
+.new_img{
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+}
+.link_img{
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+}
+.heart_img{
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+}

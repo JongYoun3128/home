@@ -1,0 +1,11 @@
+.search{
+    width: 100%;
+    
+    
+}
+
+.search .searchinput_box{
+    width: 98%;
+    padding: 15px; 
+    margin: 0 auto; 
+}

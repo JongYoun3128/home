@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'KakaoSmallSans-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoSmallSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+li{
+    list-style: none;
+}
+.Layout{
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px #000;
+}
+
+.home{
+    width: 380px;
+}
+.header{
+    margin: 20px auto;
+    width: 250px;
+    justify-content: space-between;
+    font-weight: 800;
+}
+.header li{
+    cursor: pointer;
+}
+.header li:hover{
+    color: cadetblue;
+
+}
+.top_inner{
+    width: 400px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e8f6fcf1;
+}
+.top_inner .logo{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.top_input{
+    margin-left: 30px;
+    width: 300px;
+}
+.icon_box>li{
+    cursor: pointer;
+}
+.icon_box img{
+    width: 20px;
+    height: 20px;
+    margin-top: 2.5px;
+    margin-left: 10px;
+}
+
+.home{
+    width: 400px;
+}
+.menu_slide{
+    margin: 0 auto;
+    width: 380px;
+    height: 200px;
+    background-image: url(../public/img/menu_img_01.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.menu_list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 380px;
+    margin: 30px auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-top: 5px solid #e8f6fcf1;
+    border-bottom: 5px solid #e8f6fcf1;
+}
+
+.menu_list li{
+    cursor: pointer;
+    margin: 15px 7px;
+    width: 60px;
+    height: 60px;
+}
+
+.menu_list li img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.menu_list li p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.event{
+    width: 400px;
+}
+.event_banner{
+    display: flex;
+    flex-direction: column;
+}
+.event_banner img{
+    width: 380px;
+    margin: 0 auto;
+}
+.open{
+    width: 400px;
+
+}
+
+.open img{
+    width: 380px;
+    border-radius: 12px;
+    margin: 20px auto;
+}
+
+.best{
+    width: 400px;
+}
+
+.best img{
+    width: 380px;
+    margin: 20px auto;
+}
+.mishelin{
+    padding: 0 10px;
+}
+.mishelin li{
+    cursor: pointer;
+}
+
+.solbab{
+    width: 400px;
+}
+
+.solbab img{
+    width: 380px;
+    margin: 0 auto;
+}
+
+.footer{
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(249, 66, 66);
+    text-align: center;
+    margin-top: 30px;
+}
+
+input::placeholder{
+    padding: 5px 10px;
+    font-family: 'KakaoSmallSans-Bold';
+    font-size: 16px;
+}
+
+.magazine{
+    width: 400px;
+}
+
+.magazine img{
+    width: 380px;
+    margin: 0 auto;
+}

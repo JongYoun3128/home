@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PyeojinGothic-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+li{
+    list-style: none;
+}
+
+.wrap_box .menu_list li{
+    margin-bottom: 20px;
+}
+
+.wrap_box .menu_list li .text_box{
+    padding: 10px;
+}
+
+.wrap_box .menu_list li .text_box h2{
+    margin: 5px 0;
+}
+.container{
+    border-bottom: 1px solid #e8e8e8;
+}
+.home li{
+    margin: 0 auto;
+}
+.home li img{
+    width: 400px;
+}
+
+.event li img{
+    width: 200px;
+    height: 250px;
+}
+
+.top_menu_list{
+    font-family: 'CookieRun-Regular';
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+.wrap_box{
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 100%;
+    padding: 30px 0;
+    margin: 100px auto;
+}
+.menu_box{
+    width: 1500px;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+}
+
+.menu_box>li>img{
+    width: 400px;
+    height: 280px;
+}
+
+.title{
+    font-family: 'CookieRun-Regular';
+    width: 1400px;
+    padding: 20px 0;
+}
+
+.map_box{
+    width: 1400px;
+    
+}
+
+.login{
+    width: 480px;
+    padding: 30px 0;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    margin-top:50px;
+    
+}
+
+.login img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+.login h2{
+    margin: 20px 0;
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.login input{
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+}   
+.option_text_box{
+    font-family: 'PyeojinGothic-Bold';
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #f6f1eb;
+}
+.menu_button{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_button img{
+    width: 30px;
+    height: 30px;
+}
+.menu_button_text{
+    font-size: 12px;
+    color:#99806c   
+}
+
+.login_button{
+    font-family: 'PyeojinGothic-Bold';
+    cursor: pointer;
+    width: 320px;
+    padding: 15px 0;
+    border-radius: 12px;
+    margin: 20px auto;
+    background-color: #99806c;
+}
+
+.food_list{
+    margin: 0 auto;
+    padding: 20px 5px;
+    width: 350px;
+    border-bottom: 2px solid #c4c4c4;    
+    margin-top: 20px;
+}
+
+.food_type_list{
+    margin: 0 auto;
+    padding: 20px 5px;
+    width: 350px;
+    border-bottom: 2px solid #c4c4c4;
+}
+.login .menu_list{
+    margin:  0 auto;
+    padding: 20px 5px;
+    width: 350px;
+}
+.li_list li{
+    cursor: pointer;
+    font-family: 'PyeojinGothic-Bold';
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 5px 8px ;
+    border: 1px solid #c4c4c4;
+}
+.li_list li:hover{
+    background-color: #99806c;
+}
+.login_list{
+    display: flex;
+    width: 300px;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+.title_box{
+    padding: 20px 7px;
+    border-bottom: 1px solid #000;
+}
+.title_box .big_title{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.title_box p{
+    font-weight: 500;
+}
+
+.map_box .map_menu{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.map_box .map_menu button{
+    margin-left: 15px;
+    padding: 2px 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.map_box .map_menu button:hover{
+    background-color: #99806c;
+}
+.map_box .phone_menu{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.youtube_box{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.youtube_box img{
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.subscript{
+    display: flex;
+    padding: 10px 0;
+}
+.icon_img img{
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.arrow{
+    transform: scale(-1);
+    cursor: pointer;
+}
+
+.aside_menu{
+    transition: 0.5s;
+}
+
+.sigyung_title_mobile{
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    top: 150px;
+}
+
+.paik_title_mobile{
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    top: 150px;
+}
+
+.wrapper .menu_list li{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.mapboxlist h5{
+    margin-bottom: 10px;
+}
+.mapboxlist ul li{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.mapboxlist ul li:hover{
+    color: blueviolet;
+}
+
+.event_menu_list li{
+    margin:25px 1px;
+    cursor: pointer;
+}

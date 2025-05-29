@@ -1,0 +1,42 @@
+.todo-button{
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.todo-button.lg{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.todo-button.sm{
+    width: 80px;
+    padding: 5px 0;
+}
+
+.todo-button.primary{
+    background-color: rgba(11,117,247);
+}
+
+.todo-button.danger{
+    background-color: rgba(217,7,7);
+}
+
+.todo-button.normal{
+    background-color: rgba(31,31,31);
+}
+
+
+
+.todo-button.radius{
+    border-radius: 5px;
+}
+.tododetail-buttons-wrapper{
+    margin-top: 20px;
+}
+.tododetail-buttons-wrapper>button{
+
+    margin-bottom: 20px;
+}

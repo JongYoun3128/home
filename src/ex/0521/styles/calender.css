@@ -1,0 +1,19 @@
+.calender_wrap{
+     padding: 20px 30px;
+}
+.calender_wrap h2{
+    margin: 20px 0;
+}
+.calenderlist-warpper{
+    margin-bottom: 20px;
+    height: 80dvh;
+    white-space: nowrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.calenderdate-buttons-wrapper>button{
+    margin-bottom: 20px;
+}
+

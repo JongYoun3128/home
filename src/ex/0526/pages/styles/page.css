@@ -1,0 +1,110 @@
+li{
+    list-style: none;
+}
+
+.cleanmainpage-wrap{
+    box-sizing: border-box;
+    margin: 0 auto;
+     white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    
+}
+.cleanmainpage-wrap .button_wrap{
+    padding: 0 10px;
+}
+.cleanmainpage-header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 157, 0);
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cleanmainpage-wrap .cleanmainpage-header h1{
+    
+    width:150px;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+.cleanmainpage-wrap .cleanmainpage-header h2{
+    margin: 0 auto;
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.page_wrapper .cleanmainpage-header h2{
+    margin: 0 auto;
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.cleanmainpage-header .cleanmainpage_add_button{
+    position: absolute;
+    top: 25px;
+    right:30px;
+}
+.cleanitemlist-wrap{
+    margin-bottom: 10px;
+    height: 70dvh;
+    white-space: nowrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    }
+
+
+.place_title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.cleanitemlist-wrapper{
+    padding: 20px;
+
+}
+
+
+.addplacepage_wrap{
+    padding: 0 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.addplacepage_wrap .addplacepage_button{
+    position: absolute;
+    right: 20px;
+    top: -12px;
+}
+
+.cleanplace_wrapper{
+   padding: 0 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.main_icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+

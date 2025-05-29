@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.Layout{
+    height: 1000px;
+    background-image: url(../public/img/bg_01.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.header>li{
+
+    width: 100px;
+    margin-right: 15px;
+}
+
+.header .familly{
+    font-size: 20px;
+
+}
+
+.header .familly span{
+    display: block;
+    height:70px;
+    line-height: 70px;
+}
+
+.home{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.home img{
+    margin: 0 auto;
+}
+
+.hyungmaninfo{
+    width: 500px;
+    margin: 0 auto;
+}
+.misuninfo{
+    width: 500px;
+    margin: 0 auto;
+}
+.jjangguinfo{
+    width: 500px;
+    margin: 0 auto;
+}
+.jjangahinfo{
+    width: 500px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p{
+    text-align: center;
+}

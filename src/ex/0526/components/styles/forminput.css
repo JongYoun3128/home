@@ -1,0 +1,25 @@
+.forminput-wrapper{
+    padding: 10px 15px;
+}
+
+.forminput-title-input-wrapper{
+    margin-bottom: 20px;
+}
+
+.forminput-title-input{
+    
+    padding: 10px;
+    width: 340px;
+    box-sizing: border-box;
+}
+
+.forminput-title-date{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.forminput-content-textarea{
+    padding: 10px;
+    width: 340px;
+    box-sizing: border-box;
+}

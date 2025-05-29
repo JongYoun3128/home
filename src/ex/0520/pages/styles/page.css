@@ -1,0 +1,21 @@
+.page_wrapper{
+    padding: 20px 10px;
+
+}
+
+
+.todoitemlist-warpper{
+    margin-bottom: 20px;
+    height: 80dvh;
+    white-space: nowrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.tododetail-button-wrapper{
+    margin-top: 20px;
+}
+
+.tododetail-button-wrapper>button{
+    margin-bottom: 20px;
+}

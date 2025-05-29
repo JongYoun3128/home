@@ -1,0 +1,43 @@
+.home-page{
+    padding: 20px 10px;
+    position: relative;
+}
+.touritemlist{
+    margin-bottom: 20px;
+    height: 60dvh;
+    white-space: nowrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.tododetail-buttons-wrapper{
+    margin-top: 20px;
+
+}
+
+.tododetail-buttons-wrapper > button{
+    margin-bottom: 10px;
+}
+.plan-page h2{
+    display: flex;
+}
+.tour-delete-button{
+    margin-top: 30px;
+}
+.plus-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;   
+    font-size: 30px;
+    border: 1px solid dodgerblue;   
+    margin-bottom: 10px;
+    background-color: dodgerblue;
+    color: white;
+    float: right;
+    position: absolute;
+    top: -62px;
+    right: 10px;
+}

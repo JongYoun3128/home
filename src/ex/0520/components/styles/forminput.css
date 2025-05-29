@@ -1,0 +1,46 @@
+.forminput-title-input-wrapper{
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.forminput-title-input{
+    border-radius: 5px;
+    width: 98%;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid silver;
+
+}
+
+.forminput-title-input:focus{
+    border-color: #000;
+    border-width: 2px;
+}
+
+.forminput-content-textarea-wrapper{
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.forminput-content-textarea{
+    border-radius: 5px;
+    width: 98%;
+    height: 100px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid silver;
+
+}
+
+.forminput-content-textarea:focus{
+    border-color: #000;
+    border-width: 2px;
+}

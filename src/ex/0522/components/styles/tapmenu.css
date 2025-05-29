@@ -1,0 +1,15 @@
+.tabmenu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tabmenu{
+    font-size: 20px;
+    width: 200px;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    color: gray;
+    text-align: center;
+}

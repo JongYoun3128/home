@@ -1,0 +1,45 @@
+.wrap{
+    width: 100%;
+    position: relative;
+
+}
+
+.tabmenu-wrapper{    
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tabmenu{
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    color: gray;
+    text-align: center;
+}
+
+.wastebasket{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(237, 237, 237);
+    box-shadow: 0px 1px 10px #b0b0b0;
+    right:800px;
+    bottom:150px;
+    cursor: pointer;
+    background-image: url(../../../public/img/waste_img.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+
+}
+
+.wastebasket:hover{
+    background-image: url(../../../public/img/waste_img_hover.png);
+    background-color: rgb(0, 0, 0);
+}

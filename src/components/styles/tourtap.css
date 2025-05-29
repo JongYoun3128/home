@@ -1,0 +1,17 @@
+.tourtab{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tourtab-menu{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: gray;
+    text-align: center;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+}
